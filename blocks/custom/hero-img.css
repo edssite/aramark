@@ -1,0 +1,23 @@
+.hero-img h3 {
+ font-family: gotham, Arial, Helvetica, sans-serif;
+ font-size: large;
+}
+
+.hero-img > div {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-img > div > div:first-child {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.hero-img h2 {
+    font-size: 45px;
+}
+
+.hero-img-container {
+    background-image: url('../../icons/wavebg.png');
+    background-size: cover;
+}

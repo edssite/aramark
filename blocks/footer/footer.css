@@ -1,5 +1,6 @@
 footer {
-  background-color: var(--light-color);
+  background-color: #022035;
+  color: white;
   font-size: var(--body-font-size-xs);
 }
 
@@ -17,4 +18,76 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+}
+
+.footer-banner {
+  display: flex;
+  gap: 300px;
+  border-bottom: 1px solid gray;
+}
+.footer-banner img {
+  width: 200px;
+  height: auto;
+}
+
+.footer-banner > div:last-child {
+  padding-bottom: 20px;
+}
+
+.footer-banner > div:last-child > div h2 {
+  margin-bottom: 20px;
+  font-size: x-large;
+  padding-right: 10px;
+}
+
+
+.footer-banner .button-container a.button:any-link  {
+  background-color: white;
+  color: #022035;
+  font-size: large;
+  border-radius: 20px;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+}
+
+.footer-banner .button-container a.button:any-link:hover  {
+  background-color: #022035;
+  color: white;
+  font-size: large;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+}
+
+
+.footer-banner > div > div {
+  display: flex;
+}
+
+.footer-col {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.footer-links {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.footer-links > div:first-child > div {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links img {
+  width: 100px;
+  height: 100%;
 }

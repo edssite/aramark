@@ -173,6 +173,12 @@ header nav .nav-sections ul > li {
   font-weight: 500;
 }
 
+header nav .nav-sections ul > li:hover {
+  font-weight: 500;
+  color: red;
+  text-decoration: underline;
+}
+
 header nav .nav-sections ul > li > ul {
   margin-top: 0;
 }
@@ -265,4 +271,9 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.nav-tools img {
+  width: 30px;
+  height: 100%;
 }
