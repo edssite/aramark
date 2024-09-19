@@ -1,0 +1,58 @@
+.img-info-container {
+    width: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.img-info > div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.img-info > div > div:first-child {
+    width: 40%;
+    padding: 20px;
+}
+
+
+.img-info h3 {
+    font-family: gotham;
+    font-size: medium;
+}
+
+
+.img-info > div > div:first-child {
+}
+
+
+
+.img-info > div > div:last-child img {
+    width: 500px;
+}
+
+
+.img-info .button-container a.button:any-link {
+    background-color: red;
+    width: 420px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.img-info .button-container a.button:any-link:hover {
+    background-color: white;
+    width: 420px;
+    border-radius: 20px;
+    border: 1px solid red;
+    color: red;
+    font-weight: 700;
+    font-size: medium;
+    padding-right: 30px;
+    padding-left: 30px;
+}

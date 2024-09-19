@@ -20,4 +20,9 @@
 .hero-img-container {
     background-image: url('../../icons/wavebg.png');
     background-size: cover;
+    padding-bottom: 20px;
+}
+
+.hero-txt {
+    width: 70%;
 }
