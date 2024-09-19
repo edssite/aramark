@@ -24,5 +24,132 @@
 }
 
 .hero-txt {
-    width: 70%;
+    width: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-bottom: 20px;
+}
+
+.hero-txt p {
+    width: 60%;
+}
+
+.hero-txt > div {
+    display: flex;
+}
+
+
+
+
+.hero-txt-btn {
+    width: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-bottom: 20px;
+}
+
+
+.hero-txt-btn > div {
+    display: flex;
+}
+
+.hero-txt-btn > div > div:first-child {
+    width: 60%;
+}
+
+.hero-txt-btn  .button-container a.button:any-link {
+    background-color: white;
+    width: 280px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.hero-txt-btn  .button-container a.button:any-link:hover {
+    background-color: black;
+    width: 280px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+
+.blue-banner-container {
+    background-color: rgb(10, 31,51);;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    width: 100%;
+}
+
+.blue-banner p {
+    font-size: small;
+}
+
+.blue-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    width: 100%;
+}
+
+
+.red-banner-container {
+    background-color: rgb(216, 46,53);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    width: 100%;
+}
+
+.red-banner p {
+    font-size: small;
+}
+
+.red-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    width: 100%;
+}
+
+.red-banner h3 {
+    font-family: gotham, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+
+.red-banner .button-container a.button:any-link {
+    background-color: white;
+    width: 420px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.red-banner .button-container a.button:any-link:hover {
+    background-color: rgb(216, 46,53);
+    width: 420px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    padding-right: 30px;
+    padding-left: 30px;
 }
