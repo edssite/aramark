@@ -1,4 +1,8 @@
 export default function decorate(block) {
+
+
+
+
     const items = [...block.children];
     const totalItems = items.length;
     const visibleItems = 3;

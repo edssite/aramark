@@ -57,7 +57,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: red;
+    background-color: greenyellow;
     color: white;
     border-radius: 0px;
     cursor: pointer;
