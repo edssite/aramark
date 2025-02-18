@@ -1,0 +1,10 @@
+indices:
+  articles:
+    include:
+      - /facilities/articles/**
+    target: /blog_index.json
+     properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: |
+          attribute(el, 'content')

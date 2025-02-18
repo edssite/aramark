@@ -1,0 +1,52 @@
+/* stylelint-disable */
+
+
+.article-list {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.article-list .image {
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  flex: 2;
+}
+
+.article-list .image picture {
+  width: 100%;
+  height: 100%;
+}
+
+.article-list .image img {
+  margin-top: 0;
+  margin-bottom: 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.article-list .text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ebebeb;
+  padding: 3.5em 2em 2em;
+}
+
+.article-list .text p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.75;
+}
+
+.article-list .text p.pretitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.75;
+}
